@@ -8,39 +8,44 @@
       
       
       
-      <link rel="shortcut icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.0.1">
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
     
     
       
-        <title>Eletiva: Embarcados Avançados (SoC e Linux Embarcado)</title>
+        <title>Projeto: Computação Nuvem - Infraestrutura por Código</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.38780c08.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.472b142f.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.3f72e892.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.08040f6c.min.css">
         
           
           
           <meta name="theme-color" content="#ffffff">
         
       
+      
+
     
     
     
       
         
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
-    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+
+    
     
     
   </head>
@@ -51,16 +56,17 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="white" data-md-color-accent="pink">
-      
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="pink">
   
+    
+    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
         
-        <a href="#coloque-aqui-o-nome-do-tutorial-de-voces" class="md-skip">
+        <a href="#infraestrutura-por-codigo-aplicacao-em-python-para-gerenciar-infraestrutura-construida-com-terraform" class="md-skip">
           Skip to content
         </a>
       
@@ -69,48 +75,58 @@
       
     </div>
     
-      <header class="md-header" data-md-component="header">
-  <nav class="md-header-nav md-grid" aria-label="Header">
-    <a href="." title="Eletiva: Embarcados Avançados (SoC e Linux Embarcado)" class="md-header-nav__button md-logo" aria-label="Eletiva: Embarcados Avançados (SoC e Linux Embarcado)">
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Projeto: Computação Nuvem - Infraestrutura por Código" class="md-header__button md-logo" aria-label="Projeto: Computação Nuvem - Infraestrutura por Código" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
-    <label class="md-header-nav__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
     </label>
-    <div class="md-header-nav__title" data-md-component="header-title">
-      
-        <div class="md-header-nav__ellipsis">
-          <span class="md-header-nav__topic md-ellipsis">
-            Eletiva: Embarcados Avançados (SoC e Linux Embarcado)
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Projeto: Computação Nuvem - Infraestrutura por Código
           </span>
-          <span class="md-header-nav__topic md-ellipsis">
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
             
               Home
             
           </span>
         </div>
-      
+      </div>
     </div>
     
-      <label class="md-header-nav__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
       </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
+      <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-      </button>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
@@ -127,29 +143,36 @@
     
     
   </nav>
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
         
+          
+        
       
       <main class="md-main" data-md-component="main">
         <div class="md-main__inner md-grid">
           
             
-              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Eletiva: Embarcados Avançados (SoC e Linux Embarcado)" class="md-nav__button md-logo" aria-label="Eletiva: Embarcados Avançados (SoC e Linux Embarcado)">
+    <a href="." title="Projeto: Computação Nuvem - Infraestrutura por Código" class="md-nav__button md-logo" aria-label="Projeto: Computação Nuvem - Infraestrutura por Código" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
-    Eletiva: Embarcados Avançados (SoC e Linux Embarcado)
+    Projeto: Computação Nuvem - Infraestrutura por Código
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -159,63 +182,24 @@
       
 
   
-
-
-  <li class="md-nav__item md-nav__item--active">
+  
     
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
       
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="." class="md-nav__link md-nav__link--active">
         Home
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-    
-    <a href="." title="Home" class="md-nav__link md-nav__link--active">
-      Home
-    </a>
-    
+      </a>
       
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+    </li>
   
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#comecando" class="md-nav__link">
-    Começando
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#motivacao" class="md-nav__link">
-    Motivação
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#recursos-markdown" class="md-nav__link">
-    Recursos Markdown
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
-  </li>
 
     
   </ul>
@@ -225,44 +209,18 @@
               </div>
             
             
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
   
   
     
   
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#comecando" class="md-nav__link">
-    Começando
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#motivacao" class="md-nav__link">
-    Motivação
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#recursos-markdown" class="md-nav__link">
-    Recursos Markdown
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -270,166 +228,174 @@
               </div>
             
           
-          <div class="md-content">
-            <article class="md-content__inner md-typeset">
-              
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
                 
-                
-                <h1 id="coloque-aqui-o-nome-do-tutorial-de-voces">Coloque aqui o nome do tutorial de vocês<a class="headerlink" href="#coloque-aqui-o-nome-do-tutorial-de-voces" title="Permanent link">&para;</a></h1>
+                  
+
+
+<h1 id="infraestrutura-por-codigo-aplicacao-em-python-para-gerenciar-infraestrutura-construida-com-terraform">Infraestrutura por Código - Aplicação em Python para gerenciar infraestrutura construída com Terraform<a class="headerlink" href="#infraestrutura-por-codigo-aplicacao-em-python-para-gerenciar-infraestrutura-construida-com-terraform" title="Permanent link">&para;</a></h1>
 <ul>
-<li><strong>Alunes:</strong> .../ ... /...</li>
+<li><strong>Aluno:</strong> Francisco Pinheiro Janela</li>
 <li><strong>Curso:</strong> Engenharia da Computação</li>
-<li><strong>Semestre:</strong> 9</li>
-<li><strong>Contato:</strong> <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#114;&#115;&#105;&#102;&#101;&#114;&#114;&#97;&#111;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#99;&#111;&#114;&#115;&#105;&#102;&#101;&#114;&#114;&#97;&#111;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
-<li><strong>Ano:</strong> 2020</li>
+<li><strong>Semestre:</strong> 6</li>
+<li><strong>Contato:</strong> <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#102;&#114;&#97;&#110;&#99;&#105;&#115;&#99;&#111;&#112;&#106;&#64;&#97;&#108;&#46;&#105;&#110;&#115;&#112;&#101;&#114;&#46;&#101;&#100;&#117;&#46;&#98;&#114;">&#102;&#114;&#97;&#110;&#99;&#105;&#115;&#99;&#111;&#112;&#106;&#64;&#97;&#108;&#46;&#105;&#110;&#115;&#112;&#101;&#114;&#46;&#101;&#100;&#117;&#46;&#98;&#114;</a></li>
+<li><strong>Ano:</strong> 2022</li>
+</ul>
+<h1 id="como-operar-com-o-meu-programa">Como Operar com o meu programa:<a class="headerlink" href="#como-operar-com-o-meu-programa" title="Permanent link">&para;</a></h1>
+<h2 id="pre-requisitos">Pré-requisitos<a class="headerlink" href="#pre-requisitos" title="Permanent link">&para;</a></h2>
+<p>Para começar a operar com o meu programa, sigam o passo a passo indicado no readme do <a href="https://github.com/fran-janela/projeto-comp-nuvem">meu repositório</a> no github.</p>
+<h2 id="como-usar">Como usar<a class="headerlink" href="#como-usar" title="Permanent link">&para;</a></h2>
+<p>Ao iniciar o programa pela primeira vez, o usuário se depara com a escolha entre a configuração das regiões, podendo, nesse caminho, gerenciar instâncias, gerenciar security groups e levantar aplicações em <strong>HA</strong> (High Availability), e a configuração do ambiente do IAM, onde o usuário pode gerenciar usuários e políticas(restrições).</p>
+<p>Para facilitar, a árvore de navegação abaixo, pode trazer mais facilidade para o usuário se encontrar pelo programa:</p>
+<div class="highlight"><pre><span></span><code>├── Configuração de Regiões
+│   ├── Criar, deletar ou escolher uma região
+│   ├── Gerenciar Instâncias
+│   │   ├── Listar Instâncias
+│   │   ├── Criar Instância
+│   │   ├── Deletar Instância
+│   │   ├── Atualizar Configuração de uma Instância
+│   │   └── Voltar
+│   ├── Gerenciar Security Groups
+│   │   ├── Listar Security Groups
+│   │   ├── Criar Security Group
+│   │   ├── Deletar Security Group
+│   │   ├── Adicionar Regras a um Security Group
+│   │   ├── Deletar Regras de um Security Group
+│   │   └── Voltar
+│   └── Levantar Aplicações em HA
+├── Configuração do IAM
+│   ├── Limpar ou Restaurar a Infraestrutura do IAM
+│   ├── Gerenciar Usuários
+│   │   ├── Listar Usuários
+│   │   ├── Criar Usuário
+│   │   ├── Deletar Usuário
+│   │   ├── Adicionar Políticas a um Usuário
+│   │   ├── Deletar Políticas de um Usuário
+│   │   └── Voltar
+│   └── Gerenciar Políticas
+│       ├── Listar Políticas
+│       ├── Importar Política
+│       └── Voltar
+└── Sair
+</code></pre></div>
+<p>Em sua maioria, as instruções de uso de cada uma das funcionalidades está autocontida no próprio programa, mas existem algumas considerações que podem ser feitas:</p>
+<h3 id="configuracao-de-regioes">Configuração de Regiões<a class="headerlink" href="#configuracao-de-regioes" title="Permanent link">&para;</a></h3>
+<h4 id="criar-deletar-ou-escolher-uma-regiao">Criar, deletar ou escolher uma região<a class="headerlink" href="#criar-deletar-ou-escolher-uma-regiao" title="Permanent link">&para;</a></h4>
+<p>Ao escolher a opção de deletar uma região, não existe confirmação necessária, e se o comando for executado, a região será deletada, ou seja, irá perder todos os recursos criados naquela região de uma vez. Portanto, é importante que o usuário tenha certeza de que deseja deletar a região.</p>
+<h4 id="gerenciar-instancias">Gerenciar Instâncias<a class="headerlink" href="#gerenciar-instancias" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>Ao Listar as Instâncias, o usuário deve escolher pelo número mostrado na tela aquela que quer visualizar mais informações.</p>
+</li>
+<li>
+<p>Ao Criar uma Instância, o usuário deve escolher o tipo de instância que deseja criar, e o nome da instância que deseja criar. O nome da instância deve ser único, ou seja, não pode haver duas instâncias com o mesmo nome na mesma região. Além disso, o número de instâncias olocado é a quantidade de réplicas aquelas configurações que irão ser criadas. Por fim, o Sistema Operacional pré definido é o <code>Ubuntu Server 18.04 LTS</code>.</p>
+</li>
+<li>
+<p>Ao atualizar a configuração de uma instância estará mudando todas as réplicas criadas. Quando for feita a mudança de número de instâncias, será sempre a com índice maior que será deletada. Ao mudar os <em>ids</em> dos security groups, deverá passar novamente todos aqueles que desejar aplicar à instância, configurações antigas serão perdidas.</p>
+</li>
+</ul>
+<h4 id="gerenciar-security-groups">Gerenciar Security Groups<a class="headerlink" href="#gerenciar-security-groups" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>Ao Listar os Security Groups, o usuário deve escolher pelo número mostrado na tela aquele que quer visualizar mais informações.</p>
+</li>
+<li>
+<p>Ao Criar um Security Group, o usuário deve escolher o nome do Security Group que deseja criar. O nome do Security Group deve ser único, ou seja, não pode haver dois Security Groups com o mesmo nome na mesma região. Além disso, poderá ser criado quantas regras de Ingress e Egress que o usuário desejar, se atentando somente à liberação de todas as portas para não correr riscos de segurança.</p>
+</li>
+<li>
+<p>Só será possível deletar um Security Group se ele não estiver sendo usado, ou seja, se quiser deletá-lo, deve remover todas as dependências dele nas instâncias da região.</p>
+</li>
+</ul>
+<h3 id="configuracao-do-iam">Configuração do IAM<a class="headerlink" href="#configuracao-do-iam" title="Permanent link">&para;</a></h3>
+<h4 id="limpar-ou-restaurar-a-infraestrutura-do-iam">Limpar ou Restaurar a Infraestrutura do IAM<a class="headerlink" href="#limpar-ou-restaurar-a-infraestrutura-do-iam" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>Limpar a infraestrutura do IAM significa apagar todas as configurações pré criadas para usuários, mas todos as políticas importadas continuarão sendo criadas quando for restaurada a infraestrutura.</p>
+</li>
+<li>
+<p>A Infraestrutura vem configurada com 4 políticas de teste: <em>AdministratorAccess</em>, <em>AdminNorthVirginia</em>, <em>AdminOregon</em> e <em>AdminOhio</em>. Essas políticas são criadas automaticamente quando a infraestrutura é restaurada, e não podem ser deletadas.</p>
+</li>
+</ul>
+<h4 id="gerenciar-usuarios">Gerenciar Usuários<a class="headerlink" href="#gerenciar-usuarios" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>Ao Listar os Usuários, desta vez o usuário não precisa escolher pelo número mostrado na tela, pois o programa já irá mostrar as informações de todos os usuários e todas as políticas atreladas a eles.</p>
+</li>
+<li>
+<p>Ao Criar um Usuário, o usuário deve escolher o nome do Usuário que deseja criar. O nome do Usuário deve ser único, ou seja, não pode haver dois Usuários com o mesmo nome na mesma região. Além disso, a senha aparecerá somente na criação deste, então guarde-a em um local seguro antes de continuar. Atrelar uma política (restrição) ao usuário, deve ser feita posteriormente com a função de adicionar políticas.</p>
+</li>
+<li>
+<p>Ao deletar um Usuário, o usuário não poderá ser recuperado, e todas as configurações de políticas atreladas também serão descartadas, mas as políticas em si ainda continuarão existindo.</p>
+</li>
+</ul>
+<h4 id="gerenciar-politicas">Gerenciar Políticas<a class="headerlink" href="#gerenciar-politicas" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>Ao Listar as Políticas, o usuário deve escolher pelo número mostrado na tela aquela que quer visualizar mais informações.</p>
+</li>
+<li>
+<p>Para importar uma política, o usuário deve passar o <em>path</em> completo do arquivo <code>.json</code>. Caso seja um arquivo válido, a regra será criada e permanentemente adicionada ao seu repositório de políticas. Para deletá-la, deve apagar o arquivo .json criado em <code>iam/policies/</code>. O nome da política será o nome do arquivo, sem a extensão.</p>
+</li>
+<li>
+<p>Para facilitar a criação, construa a política pela dashboard da AWS e copie o conteúdo do arquivo <code>.json</code> gerado.</p>
+</li>
 </ul>
 <h2 id="comecando">Começando<a class="headerlink" href="#comecando" title="Permanent link">&para;</a></h2>
 <p>Para seguir esse tutorial é necessário:</p>
 <ul>
-<li><strong>Hardware:</strong> DE10-Standard e acessórios</li>
-<li><strong>Softwares:</strong> Quartus 18.01</li>
-<li><strong>Documentos:</strong> <a href="https://github.com/Insper/DE10-Standard-v.1.3.0-SystemCD/tree/master/Manual">DE10-Standard_User_manual.pdf</a></li>
+<li><strong>Tecnologias:</strong> Terraform, Python</li>
+<li><strong>Documentos:</strong> <a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs">Terraform AWS Docs</a></li>
 </ul>
+<h2 id="o-que-e-terraform">O que é Terraform?<a class="headerlink" href="#o-que-e-terraform" title="Permanent link">&para;</a></h2>
 <h2 id="motivacao">Motivação<a class="headerlink" href="#motivacao" title="Permanent link">&para;</a></h2>
-<p>Expliquem porque quiseram fazer esse tutorial.</p>
-<hr />
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>Essas duas partes são obrigatórias no tutorial:</p>
-<ul>
-<li>Nome de vocês</li>
-<li>Começando</li>
-<li>Motivação</li>
-</ul>
-</div>
-<h2 id="recursos-markdown">Recursos Markdown<a class="headerlink" href="#recursos-markdown" title="Permanent link">&para;</a></h2>
-<p>Vocês podem usar tudo que já sabem de markdown mais alguns recursos:</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Bloco de destaque de texto, pode ser:</p>
-<ul>
-<li>note, example, warning, info, tip, danger</li>
-</ul>
-</div>
-<div class="admonition example">
-<p class="admonition-title">Faça assim</p>
-<p>É possível editar o título desses blocos</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Isso também é possível de ser feito, mas
-use com parcimonia.</p>
-</div>
-</div>
-<details class="info"><summary>Info</summary><p>Também da para esconder o texto, usar para coisas
-muito grandes, ou exemplos de códigos.</p>
-<div class="highlight"><pre><span></span><code>...
+<p>Minha motivação para a criação desta aplicação e, consequentemente, este tutorial veio da crescente vontade de apresnder sobre infraestrutura e Computação Nuvem, o que me fez produzir algo robusto e confiável, que pudesse ser utilizado por pessoas com pouco conhecimento em infraestrutura, mas com a vontade de aprender.</p>
 
 
 
 
 
-
-
-
-
-
-
-oi!
-</code></pre></div>
-
-</details>
-<ul>
-<li><strong>Esse é um texto em destaque</strong></li>
-<li><mark>Pode fazer isso também</mark></li>
-</ul>
-<p>Usar emojis da lista:</p>
-<p><img alt="💕" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f495.svg" title=":two_hearts:" /> - <a href="https://github.com/caiyongji/emoji-list">https://github.com/caiyongji/emoji-list</a></p>
-<div class="highlight"><pre><span></span><code><span class="c1">// da para colocar códigos</span>
- <span class="kt">void</span> <span class="nf">main</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="p">{}</span>
-</code></pre></div>
-
-<p>É legal usar abas para coisas desse tipo:</p>
-<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">C</label><div class="tabbed-content">
-<div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
-
-<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="p">{</span>
-  <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello world!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
-  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>
-
-</div>
-<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">C++</label><div class="tabbed-content">
-<div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
-
-<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="p">{</span>
-  <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Hello world!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>
-
-</div>
-</div>
-<p>Inserir vídeo:</p>
-<ul>
-<li>Abra o youtube <img alt="➡️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/27a1.svg" title=":arrow_right:" /> clique com botão direito no vídeo <img alt="➡️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/27a1.svg" title=":arrow_right:" /> copia código de incorporação:</li>
-</ul>
-<iframe width="630" height="450" src="https://www.youtube.com/embed/UIGsSLCoIhM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>Eu ajusto o tamanho do vídeo <code>width</code>/<code>height</code> para não ficar gigante na página</p>
-</div>
-<p>Imagens você insere como em plain markdown, mas tem a vantagem de poder mudar as dimensões com o marcador <code>{width=...}</code></p>
-<p><img alt="" src="icon-elementos.png" /></p>
-<p><img alt="" src="icon-elementos.png" width="200" /></p>
                 
-              
-              
-                
-
-
-              
-            </article>
-          </div>
+              </article>
+            </div>
+          
+          
         </div>
+        
       </main>
       
-        
-<footer class="md-footer">
+        <footer class="md-footer">
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-          <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2019 / Prof. Rafael Corsi / rafael.corsi@insper.edu.br
-          </div>
-        
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
-      </div>
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022 / Francisco Pinheiro Janela / franciscopj@al.insper.edu.br
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
       
     </div>
   </div>
 </footer>
       
     </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
     
-      <script src="assets/javascripts/vendor.77e55a48.min.js"></script>
-      <script src="assets/javascripts/bundle.aa3f9871.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
-      
-      <script>
-        app = initialize({
-          base: ".",
-          features: ['instant', 'navigation.expand', {'tabs': True}],
-          search: Object.assign({
-            worker: "assets/javascripts/worker/search.4ac00218.min.js"
-          }, typeof search !== "undefined" && search)
-        })
-      </script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["instant", "navigation.expand", {"tabs": true}], "search": "assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.d6c3db9e.min.js"></script>
       
     
   </body>
