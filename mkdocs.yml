@@ -1,5 +1,5 @@
 
-site_name: 'Eletiva: Embarcados Avançados (SoC e Linux Embarcado)'
+site_name: 'Projeto: Computação Nuvem - Infraestrutura por Código'
 
 theme:
   features:
@@ -15,7 +15,7 @@ theme:
     code: Roboto Mono
 
 # Copyright
-copyright: 'Copyright &copy; 2019 / Prof. Rafael Corsi / rafael.corsi@insper.edu.br'
+copyright: 'Copyright &copy; 2022 / Francisco Pinheiro Janela / franciscopj@al.insper.edu.br'
 
 # repo
 docs_dir: docs-src
