@@ -122,6 +122,8 @@ Em primeiro lugar, a Aplicação em HA é uma demo com funcionamento limitado, q
 - Para facilitar a criação, construa a política pela dashboard da AWS e copie o conteúdo do arquivo `.json` gerado.
 
 -----------------
+
+## Roteiro DIY
 ## Começando
 
 Para seguir esse tutorial é necessário:
